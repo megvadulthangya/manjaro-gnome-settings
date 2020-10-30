@@ -120,7 +120,14 @@ time-source='nightlight'
 
 [org/gnome/desktop/wm/keybindings]
 close=['<Super>q']
+minimize=@as []
+
 switch-to-workspace-down=['<Super>s']
 switch-to-workspace-up=['<Super>w']
 move-to-workspace-up=['<Shift><Super>w']
 move-to-workspace-down=['<Shift><Super>s']
+
+[org/gnome/settings-daemon/plugins/media-keys]
+email=['<Super>e']
+home=['<Super>f']
+www=['<Super>b']
