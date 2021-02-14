@@ -1,7 +1,8 @@
 [org/gnome/shell/extensions/materialshell/layouts]
-float=false
+float=true
 split=false
 half=true
+grid=true
 default-layout='half'
 windows-excluded='Enpass,Gnome-layout-switcher'
 ratio-value=0.54999999999999993
