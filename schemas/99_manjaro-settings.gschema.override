@@ -40,6 +40,7 @@ lock-enabled=false
 night-light-enabled=true
 
 [org.gnome.desktop.interface]
+enable-animations=false
 cursor-theme='xcursor-breeze'
 document-font-name='Sans 11'
 enable-animations=true
@@ -64,7 +65,7 @@ tap-and-drag=true
 always-show-log-out=true
 disable-extension-version-validation=true
 favorite-apps=['firefox.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.gedit.desktop', 'gnome-terminal.desktop', 'pamac-manager.desktop', 'org.gnome.Screenshot.desktop', 'gnome-tweak-tool.desktop', 'calamares.desktop', 'manjaro-architect.desktop']
-enabled-extensions=['user-theme@gnome-shell-extensions.gcampax.github.com', 'appindicatorsupport@rgcjonas.gmail.com', 'pamac-updates@manjaro.org',  'material-shell@papyelgringo']
+enabled-extensions=['user-theme@gnome-shell-extensions.gcampax.github.com', 'appindicatorsupport@rgcjonas.gmail.com', 'pamac-updates@manjaro.org',  'pop-shell@system76.com', 'dash-to-dock@micxgx.gmail.com', 'arcmenu@arcmenu.com']
 
 [org.gnome.shell.extensions.user-theme]
 name='Matcha-dark-sea'
@@ -72,6 +73,8 @@ name='Matcha-dark-sea'
 [org.gnome.Terminal.Legacy.Profile]
 background-color='rgb(69,70,73)'
 use-theme-colors=false
+use-custom-command=true
+custom-command='zsh'
 use-system-font=false
 font='NotoSansMono Nerd Font 11'
 foreground-color='rgb(220,233,235)'
@@ -132,3 +135,10 @@ move-to-workspace-down=['<Shift><Super>s']
 email=['<Super>e']
 home=['<Super>f']
 www=['<Super>b']
+
+[org/gnome/shell/extensions/arcmenu]
+arc-menu-placement='DASH'
+distro-icon=3
+menu-button-icon='Distro_Icon'
+menu-layout='GnomeDash'
+gnome-dash-show-applications=true

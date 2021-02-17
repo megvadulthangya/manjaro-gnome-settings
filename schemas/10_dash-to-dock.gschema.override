@@ -2,11 +2,12 @@
 custom-theme-customize-running-dots=true
 custom-theme-shrink=true
 apply-custom-theme=false
-autohide=true
+autohide=false
+animate-show-apps=false
 dash-max-icon-size=32
-dock-fixed=false
-extend-height=false
-show-apps-at-top=false
+dock-fixed=true
+extend-height=true
+show-apps-at-top=true
 background-color='#13191c'
 background-opacity=0.3
 custom-background-color=true
