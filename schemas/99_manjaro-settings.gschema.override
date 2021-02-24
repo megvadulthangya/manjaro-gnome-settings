@@ -1,7 +1,7 @@
-[org.freedesktop.Tracker.Extract]
+[org/freedesktop/Tracker/Extract]
 sched-idle='always'
 
-[org.freedesktop.Tracker.Miner.Files]
+[org/freedesktop/Tracker/Miner/Files]
 sched-idle='always'
 index-on-battery=false
 
@@ -135,10 +135,3 @@ move-to-workspace-down=['<Shift><Super>s']
 email=['<Super>e']
 home=['<Super>f']
 www=['<Super>b']
-
-[org/gnome/shell/extensions/arcmenu]
-arc-menu-placement='DASH'
-distro-icon=3
-menu-button-icon='Distro_Icon'
-menu-layout='GnomeDash'
-gnome-dash-show-applications=true
