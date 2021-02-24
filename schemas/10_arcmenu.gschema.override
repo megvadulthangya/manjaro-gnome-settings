@@ -1,0 +1,6 @@
+[org/gnome/shell/extensions/arcmenu]
+arc-menu-placement='DASH'
+distro-icon=3
+menu-button-icon='Distro_Icon'
+menu-layout='GnomeDash'
+gnome-dash-show-applications=true

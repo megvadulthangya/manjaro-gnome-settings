@@ -2,3 +2,6 @@
 
 dconf dump / | grep '\[org/gnome/shell/extensions/materialshell/layouts\]' -q || dconf load / < /usr/share/gnome-shell/extensions/material-shell@papyelgringo/schemas/10_material-shell.gschema.override
 dconf dump / | grep '\[org/gnome/shell/extensions/pop-shell\]' -q || dconf load / < /usr/share/gnome-shell/extensions/pop-shell\@system76.com/schemas/10_pop-shell.gschema.override
+dconf dump / | grep '\[org/gnome/shell/extensions/arcmenu\]' -q || dconf load / < /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/schemas/10_arcmenu.gschema.override
+dconf dump / | grep '\[org/gnome/shell/extensions/dash-to-dock\]' -q || dconf load / < /usr/share/gnome-shell/extensions/dash-to-dock@micxgx.gmail.com/schemas/10_dash-to-dock.gschema.override
+
