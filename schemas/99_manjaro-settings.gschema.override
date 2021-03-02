@@ -47,6 +47,9 @@ idle-delay 0
 
 [org.gnome.settings-daemon.plugins.power]
 active=false
+idle-dim=false
+sleep-inactive-ac-timeout=0
+sleep-inactive-battery-timeout=0
 
 
 [org.gnome.settings-daemon.plugins.color]
