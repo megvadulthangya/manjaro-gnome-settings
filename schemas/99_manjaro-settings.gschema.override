@@ -65,7 +65,7 @@ tap-and-drag=true
 always-show-log-out=true
 disable-extension-version-validation=true
 favorite-apps=['firefox.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.gedit.desktop', 'gnome-terminal.desktop', 'pamac-manager.desktop', 'org.gnome.Screenshot.desktop', 'gnome-tweak-tool.desktop', 'calamares.desktop', 'manjaro-architect.desktop']
-enabled-extensions=['user-theme@gnome-shell-extensions.gcampax.github.com', 'appindicatorsupport@rgcjonas.gmail.com', 'pamac-updates@manjaro.org',  'pop-shell@system76.com', 'dash-to-dock@micxgx.gmail.com', 'arcmenu@arcmenu.com']
+enabled-extensions=['user-theme@gnome-shell-extensions.gcampax.github.com', 'appindicatorsupport@rgcjonas.gmail.com', 'pamac-updates@manjaro.org',  'pop-shell@system76.com', 'dash-to-dock@micxgx.gmail.com']
 
 [org.gnome.shell.extensions.user-theme]
 name='Matcha-dark-sea'
