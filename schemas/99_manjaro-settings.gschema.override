@@ -35,13 +35,14 @@ show-desktop-icons=false
 [org.gnome.desktop.screensaver]
 picture-uri='file:///usr/share/backgrounds/manjaro-gnome/M2020G2.jpg'
 lock-enabled=false
+idle-activation-enabled=false
 
 [org.gnome.desktop.screensaver]
-disable-lock-screen true
-disable-log-out true
+disable-lock-screen=true
+disable-log-out=true
 
 [org.gnome.desktop.session]
-idle-delay 0
+idle-delay=0
 
 
 [org.gnome.settings-daemon.plugins.power]
