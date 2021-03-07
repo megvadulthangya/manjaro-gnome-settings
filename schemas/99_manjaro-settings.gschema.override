@@ -37,16 +37,11 @@ picture-uri='file:///usr/share/backgrounds/manjaro-gnome/M2020G2.jpg'
 lock-enabled=false
 idle-activation-enabled=false
 
-[org.gnome.desktop.screensaver]
-disable-lock-screen=true
-disable-log-out=true
-
 [org.gnome.desktop.session]
 idle-delay=0
 
 
 [org.gnome.settings-daemon.plugins.power]
-active=false
 idle-dim=false
 sleep-inactive-ac-timeout=0
 sleep-inactive-battery-timeout=0
@@ -112,9 +107,6 @@ editor-font='Hack 12'
 scheme='solarized-dark'
 tabs-size=4
 use-default-font=false
-
-[org.gnome.settings-daemon.plugins.xsettings]
-antialiasing='rgba'
 
 [org.gnome.login-screen]
 logo='/usr/share/icons/manjaro/maia/logo_text_white.png '
