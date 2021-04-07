@@ -4,3 +4,6 @@ gap-outer=uint32 0
 show-title=true
 tile-by-default=false
 hint-color-rgba='rgb(0,135,135)'
+
+[org.gnome.desktop.interface]
+enable-animations=false
