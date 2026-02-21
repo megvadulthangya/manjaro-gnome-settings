@@ -3,7 +3,7 @@
 # Available options: gtk2, gnome, kde, qt5ct, xcb
 
 # Note: Don't use in combination with QT_STYLE_OVERRIDE
-export QT_QPA_PLATFORMTHEME="qt6ct"
+export QT_QPA_PLATFORMTHEME="qt5ct"
 
 # Available styles: HighContrastInverse, HighContrast, Adwaita-HighContrastInverse,
 # Adwaita-HighContrast, Adwaita-Dark, Adwaita, kvantum-dark, kvantum, qt5ct-style,
