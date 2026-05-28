@@ -4,7 +4,7 @@ transparency=true
 use-system-font=false
 
 [org.gnome.desktop.app-folders]
-folder-children=['accessories', 'games', 'office', 'system-tools']
+folder-children=['Game', 'Office', 'System' 'Utilities']
 
 [org.gnome.desktop.background]
 picture-uri='file:///usr/share/backgrounds/manjaro/abstract-l.png'
@@ -83,4 +83,3 @@ always-check-default-terminal=false
 
 [org.gtk.settings.file-chooser]
 sort-directories-first=true
-
