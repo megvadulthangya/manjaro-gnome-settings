@@ -1,2 +1,3 @@
 [org.gnome.shell.extensions.arcmenu]
-distro-icon=3
+menu-button-icon=resource:///org/gnome/shell/extensions/arcmenu/icons/scalable/actions/distro-manjaro-symbolic.svg
+menu-layout=gnome-overview
