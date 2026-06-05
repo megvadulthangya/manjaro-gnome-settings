@@ -1,3 +1,6 @@
+[org/gnome/desktop/app-folders]
+folder-children=['Game', 'Office', 'Settings', 'System', 'Utilities']
+
 [org/gnome/desktop/app-folders/folders/Game]
 categories=['Game']
 name='Games'
@@ -10,10 +13,10 @@ translate=true
 
 [org/gnome/desktop/app-folders/folders/System]
 categories=['System']
-name='System'
+name='System Tools'
 translate=true
 
 [org/gnome/desktop/app-folders/folders/Utilities]
-categories=['Utilities']
+categories=['Utility']
 name='Utilities'
 translate=true
