@@ -1,24 +1,24 @@
 [org.gnome.Console]
-custom-font='MesloLGS NF 11'
+custom-font='FiraCode Nerd Font 12'
 transparency=true
 use-system-font=false
 
 [org.gnome.desktop.background]
-picture-uri='file:///usr/share/backgrounds/manjaro/abstract-l.png'
-picture-uri-dark='file:///usr/share/backgrounds/manjaro/abstract-d.png'
+picture-uri='file:///usr/share/backgrounds/nordic-backgrounds/misty_mountains.jpg'
+picture-uri-dark='file:///usr/share/backgrounds/nordic-backgrounds/ign_manjaro.jpg'
 
 [org.gnome.desktop.default-applications.terminal]
-exec='kgx'
+exec='com.gexperts.Tilix.desktop'
 
 [org.gnome.desktop.interface]
-accent-color='maia'
+accent-color='nord'
 color-scheme='prefer-dark'
-cursor-theme='Bibata-Modern-Classic'
-document-font-name='Sans 11'
-font-name='Noto Sans 11'
-gtk-theme='adw-gtk3-dark'
-icon-theme='Papirus-Dark'
-monospace-font-name='Hack Nerd Font 11'
+cursor-theme='Capitaine Nord Dark'
+document-font-name='FiraCode Nerd Font 12'
+font-name='FiraCode Nerd Font 12'
+gtk-theme='Nordic-standard-buttons'
+icon-theme='Nordzy-dark'
+monospace-font-name='FiraCode Nerd Font 12'
 
 [org.gnome.desktop.wm.keybindings]
 close=['<Super>q']
@@ -61,8 +61,8 @@ default-zoom-level='small-plus'
 
 [org.gnome.shell]
 always-show-log-out=true
-favorite-apps=['firefox.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.TextEditor.desktop', 'org.gnome.Console.desktop', 'org.manjaro.pamac.manager.desktop', 'calamares.desktop', 'manjaro-architect.desktop']
-enabled-extensions=['pamac-updates@manjaro.org', 'dash-to-dock@micxgx.gmail.com', 'appindicatorsupport@rgcjonas.gmail.com', 'gnome-ui-tune@itstime.tech', 'legacyschemeautoswitcher@joshimukul29.gmail.com', 'papirus-folders-colorizer@NiffirgkcaJ.github.com', 'user-theme@gnome-shell-extensions.gcampax.github.com']
+favorite-apps=['brave-browser.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.TextEditor.desktop', 'com.gexperts.Tilix.desktop', 'org.manjaro.pamac.manager.desktop', 'calamares.desktop', 'manjaro-architect.desktop']
+enabled-extensions=['pamac-updates@manjaro.org', 'dash-to-dock@micxgx.gmail.com', 'appindicatorsupport@rgcjonas.gmail.com', 'gnome-ui-tune@itstime.tech', 'legacyschemeautoswitcher@joshimukul29.gmail.com', 'user-theme@gnome-shell-extensions.gcampax.github.com']
 
 [org.gnome.shell.keybindings]
 switch-to-application-1=@as []
