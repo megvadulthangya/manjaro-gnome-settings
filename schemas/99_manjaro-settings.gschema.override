@@ -11,7 +11,7 @@ picture-uri-dark='file:///usr/share/backgrounds/nordic-backgrounds/ign_manjaro.j
 exec='com.gexperts.Tilix.desktop'
 
 [org.gnome.desktop.interface]
-accent-color='nord'
+accent-color=''
 color-scheme='prefer-dark'
 cursor-theme='Capitaine Nord Dark'
 document-font-name='FiraCode Nerd Font 12'
